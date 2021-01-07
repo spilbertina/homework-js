@@ -16,4 +16,3 @@ if (result) {
 else {
     console.log('Слишком длинное слово :(');
 }
-
