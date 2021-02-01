@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>alarm-clock</title>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body>
+        <h1>Будильник</h1>
+        <h2>Установка будильника</h2>
+        <div class="clock">
+            <input type="text" name="hour" placeholder="00" value="1" />
+            <input type="text" name="min" placeholder="00" value="1" />
+            <input type="text" name="sec" placeholder="00" value="0" />
+        </div>
+        <div class="text">
+            <button class="run" onclick="run()">Начать</button>
+            <button class="stop" onclick="stop()">Выключить</button>
+        </div>
+        <div id="time"></div>
+    </body>
+    <script src="app.js"></script>
+</html>
