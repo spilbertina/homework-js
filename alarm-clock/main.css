@@ -52,12 +52,6 @@ button {
     border-radius: 6px;
 }
 
-.start {
-    background-color: rgb(107, 240, 107);
-    border-color: rgb(88, 214, 88);
-    border-style: solid;
-}
-
 .stop {
     background-color: rgb(255, 141, 141);
     border-color:  rgb(228, 118, 118);
