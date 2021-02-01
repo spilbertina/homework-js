@@ -1,4 +1,4 @@
-const TimeInterval = 100;
+const TimeInterval = 1000;
 
 class CountDown {
     get ALL_SECONG() {
